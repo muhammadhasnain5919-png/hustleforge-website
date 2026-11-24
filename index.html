@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HustleForge — AI Side Hustle Platform | Launch Your Next Income Stream</title>
+  <meta name="description" content="Discover profitable side hustles tailored to your skills. Get AI-generated launch plans, tools, and tracking. Start free." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#ecfdf5',
+              100: '#d1fae5',
+              200: '#a7f3d0',
+              300: '#6ee7b7',
+              400: '#34d399',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .gradient-text {
+      background: linear-gradient(135deg, #10b981 0%, #34d399 50%, #6ee7b7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 antialiased">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 font-bold text-xl tracking-tight">
+        <span class="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center text-zinc-950 font-extrabold text-sm">HF</span>
+        HustleForge
+      </a>
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
+        <a href="how-it-works.html" class="hover:text-white transition">How it works</a>
+        <a href="pricing.html" class="hover:text-white transition">Pricing</a>
+        <a href="blog/index.html" class="hover:text-white transition">Blog</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#waitlist" class="hidden sm:inline-flex text-sm font-medium text-zinc-300 hover:text-white transition">Log in</a>
+        <a href="#waitlist" class="inline-flex items-center justify-center rounded-lg bg-brand-500 px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-brand-400 transition">
+          Start Free
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative pt-32 pb-20 sm:pt-40 sm:pb-28 overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-brand-900/20 via-zinc-950 to-zinc-950"></div>
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 text-center">
+      <div class="inline-flex items-center gap-2 rounded-full border border-brand-500/30 bg-brand-500/10 px-3 py-1 text-xs font-medium text-brand-300 mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-brand-400 animate-pulse"></span>
+        AI-powered side hustle platform
+      </div>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-balance leading-[1.1]">
+        Forge your next<br>
+        <span class="gradient-text">income stream</span> with AI
+      </h1>
+      <p class="mt-6 text-lg sm:text-xl text-zinc-400 max-w-2xl mx-auto text-pretty">
+        Get personalized side hustle ideas, step-by-step launch plans, and the tools to start earning — tailored to your skills and available time.
+      </p>
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#waitlist" class="w-full sm:w-auto inline-flex items-center justify-center rounded-xl bg-brand-500 px-8 py-3.5 text-base font-semibold text-zinc-950 hover:bg-brand-400 transition shadow-lg shadow-brand-500/20">
+          Get my free hustle plan
+        </a>
+        <a href="how-it-works.html" class="w-full sm:w-auto inline-flex items-center justify-center rounded-xl border border-zinc-700 bg-zinc-900/50 px-8 py-3.5 text-base font-medium text-zinc-200 hover:bg-zinc-800 transition">
+          See how it works
+        </a>
+      </div>
+      <p class="mt-6 text-sm text-zinc-500">No credit card required · Join 12,400+ early users</p>
+    </div>
+  </section>
+
+  <!-- Social proof bar -->
+  <section class="border-y border-zinc-800 bg-zinc-900/40 py-8">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <p class="text-center text-sm text-zinc-500 mb-6">Trusted by people building real side income</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div>
+          <div class="text-2xl sm:text-3xl font-bold text-white">12.4k+</div>
+          <div class="text-sm text-zinc-500 mt-1">Early users</div>
+        </div>
+        <div>
+          <div class="text-2xl sm:text-3xl font-bold text-white">$2.1M+</div>
+          <div class="text-sm text-zinc-500 mt-1">Reported side income</div>
+        </div>
+        <div>
+          <div class="text-2xl sm:text-3xl font-bold text-white">48 hrs</div>
+          <div class="text-sm text-zinc-500 mt-1">Avg. time to first dollar</div>
+        </div>
+        <div>
+          <div class="text-2xl sm:text-3xl font-bold text-white">4.9/5</div>
+          <div class="text-sm text-zinc-500 mt-1">User rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem → Solution -->
+  <section class="py-20 sm:py-28">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div>
+          <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-balance">Most side hustle advice is generic noise</h2>
+          <p class="mt-4 text-zinc-400 text-pretty">
+            Endless YouTube videos, Reddit threads, and “top 10 ideas” lists don’t account for your actual skills, time, or risk tolerance. You end up overwhelmed or chasing ideas that don’t fit.
+          </p>
+          <ul class="mt-8 space-y-4">
+            <li class="flex gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-red-500/20 text-red-400 flex items-center justify-center text-xs">✕</span>
+              <span class="text-zinc-300">Generic lists that ignore your unique situation</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-red-500/20 text-red-400 flex items-center justify-center text-xs">✕</span>
+              <span class="text-zinc-300">No clear first steps or realistic earning ranges</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-red-500/20 text-red-400 flex items-center justify-center text-xs">✕</span>
+              <span class="text-zinc-300">You quit before making your first dollar</span>
+            </li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-8">
+          <h3 class="text-xl font-semibold text-brand-400 mb-4">HustleForge changes that</h3>
+          <p class="text-zinc-300 text-pretty">
+            Answer a short quiz. Our AI matches you with high-fit side hustles and builds a personalized 7 / 30 / 90-day launch plan with exact actions, tools, and estimated earnings.
+          </p>
+          <div class="mt-6 flex items-center gap-3 text-sm text-zinc-400">
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-brand-500/10 px-3 py-1 text-brand-300">
+              <span class="w-1.5 h-1.5 rounded-full bg-brand-400"></span>
+              Personalized
+            </span>
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-brand-500/10 px-3 py-1 text-brand-300">
+              Actionable
+            </span>
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-brand-500/10 px-3 py-1 text-brand-300">
+              Trackable
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="py-20 sm:py-28 bg-zinc-900/40 border-y border-zinc-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Everything you need to go from idea to income</h2>
+        <p class="mt-4 text-zinc-400">Not just ideas — a complete system to launch and grow.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-6 hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-brand-500/10 flex items-center justify-center text-brand-400 mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg">AI-matched hustles</h3>
+          <p class="mt-2 text-sm text-zinc-400">Ideas ranked by fit for your skills, hours, and goals — with realistic earning ranges.</p>
+        </div>
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-6 hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-brand-500/10 flex items-center justify-center text-brand-400 mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg">Day-by-day launch plans</h3>
+          <p class="mt-2 text-sm text-zinc-400">Clear 7-day, 30-day, and 90-day action plans so you always know the next step.</p>
+        </div>
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-6 hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-brand-500/10 flex items-center justify-center text-brand-400 mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg">Launch kits & templates</h3>
+          <p class="mt-2 text-sm text-zinc-400">Proposals, emails, pricing guides, and checklists ready to customize and send.</p>
+        </div>
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-6 hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-brand-500/10 flex items-center justify-center text-brand-400 mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg">Progress tracking</h3>
+          <p class="mt-2 text-sm text-zinc-400">Dashboard to track tasks, earnings, and momentum so you stay accountable.</p>
+        </div>
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-6 hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-brand-500/10 flex items-center justify-center text-brand-400 mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg">Community of hustlers</h3>
+          <p class="mt-2 text-sm text-zinc-400">Share wins, get feedback, and learn from people actually making it work.</p>
+        </div>
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-6 hover:border-brand-500/40 transition">
+          <div class="w-10 h-10 rounded-lg bg-brand-500/10 flex items-center justify-center text-brand-400 mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg">Marketplace & tools</h3>
+          <p class="mt-2 text-sm text-zinc-400">Digital products, templates, and affiliate tools to accelerate your launch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works teaser -->
+  <section class="py-20 sm:py-28">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">From zero to first dollar in three steps</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="mx-auto w-12 h-12 rounded-full bg-brand-500 text-zinc-950 font-bold flex items-center justify-center text-lg mb-5">1</div>
+          <h3 class="font-semibold text-lg">Tell us about you</h3>
+          <p class="mt-2 text-sm text-zinc-400">Quick quiz covering skills, available hours, interests, and goals.</p>
+        </div>
+        <div class="text-center">
+          <div class="mx-auto w-12 h-12 rounded-full bg-brand-500 text-zinc-950 font-bold flex items-center justify-center text-lg mb-5">2</div>
+          <h3 class="font-semibold text-lg">Get your AI plan</h3>
+          <p class="mt-2 text-sm text-zinc-400">Personalized hustle matches + day-by-day launch roadmap.</p>
+        </div>
+        <div class="text-center">
+          <div class="mx-auto w-12 h-12 rounded-full bg-brand-500 text-zinc-950 font-bold flex items-center justify-center text-lg mb-5">3</div>
+          <h3 class="font-semibold text-lg">Launch & track</h3>
+          <p class="mt-2 text-sm text-zinc-400">Use templates, track progress, and iterate with community support.</p>
+        </div>
+      </div>
+      <div class="mt-12 text-center">
+        <a href="how-it-works.html" class="inline-flex items-center gap-2 text-brand-400 font-medium hover:text-brand-300 transition">
+          Full walkthrough
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-20 sm:py-28 bg-zinc-900/40 border-y border-zinc-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-14">
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Real people. Real side income.</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-6">
+          <div class="flex gap-1 text-brand-400 mb-4">★★★★★</div>
+          <p class="text-zinc-300 text-sm leading-relaxed">“I went from scrolling ‘side hustle ideas’ for months to landing my first client in 11 days. The 7-day plan removed all the decision paralysis.”</p>
+          <div class="mt-5 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-brand-500/20 flex items-center justify-center text-brand-300 font-semibold text-sm">SK</div>
+            <div>
+              <div class="font-medium text-sm">Sara K.</div>
+              <div class="text-xs text-zinc-500">Freelance writing · $1.8k/mo side</div>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-6">
+          <div class="flex gap-1 text-brand-400 mb-4">★★★★★</div>
+          <p class="text-zinc-300 text-sm leading-relaxed">“The AI suggested a niche I never considered. Three months later I’m making more from the side hustle than my part-time job.”</p>
+          <div class="mt-5 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-brand-500/20 flex items-center justify-center text-brand-300 font-semibold text-sm">MR</div>
+            <div>
+              <div class="font-medium text-sm">Marcus R.</div>
+              <div class="text-xs text-zinc-500">AI automation services</div>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-6">
+          <div class="flex gap-1 text-brand-400 mb-4">★★★★★</div>
+          <p class="text-zinc-300 text-sm leading-relaxed">“Finally something that gives actual next actions instead of vague motivation. The templates alone saved me weeks.”</p>
+          <div class="mt-5 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-brand-500/20 flex items-center justify-center text-brand-300 font-semibold text-sm">JL</div>
+            <div>
+              <div class="font-medium text-sm">Jordan L.</div>
+              <div class="text-xs text-zinc-500">Digital product seller</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing teaser -->
+  <section class="py-20 sm:py-28">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Simple pricing that grows with you</h2>
+      <p class="mt-4 text-zinc-400 max-w-xl mx-auto">Start free. Upgrade when you’re ready to move faster.</p>
+      <div class="mt-10">
+        <a href="pricing.html" class="inline-flex items-center justify-center rounded-xl bg-brand-500 px-8 py-3.5 text-base font-semibold text-zinc-950 hover:bg-brand-400 transition">
+          View pricing
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA / Waitlist -->
+  <section id="waitlist" class="py-20 sm:py-28 bg-gradient-to-b from-zinc-900/60 to-zinc-950 border-t border-zinc-800">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Ready to forge your next income stream?</h2>
+      <p class="mt-4 text-zinc-400">Join the waitlist and get early access + a free personalized hustle report.</p>
+      <form class="mt-8 flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onsubmit="event.preventDefault(); alert('Thanks! You\'re on the list. (This is a demo — connect your email service later.)');">
+        <input type="email" required placeholder="Enter your email" class="flex-1 rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-3 text-sm text-white placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:border-brand-500" />
+        <button type="submit" class="rounded-xl bg-brand-500 px-6 py-3 text-sm font-semibold text-zinc-950 hover:bg-brand-400 transition whitespace-nowrap">
+          Join waitlist
+        </button>
+      </form>
+      <p class="mt-4 text-xs text-zinc-500">No spam. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-zinc-800 py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-col md:flex-row justify-between items-start gap-8">
+        <div>
+          <a href="index.html" class="flex items-center gap-2 font-bold text-lg">
+            <span class="w-7 h-7 rounded-md bg-brand-500 flex items-center justify-center text-zinc-950 font-extrabold text-xs">HF</span>
+            HustleForge
+          </a>
+          <p class="mt-3 text-sm text-zinc-500 max-w-xs">AI-powered platform to discover, launch, and grow profitable side hustles.</p>
+        </div>
+        <div class="flex flex-wrap gap-10 text-sm">
+          <div>
+            <div class="font-medium text-zinc-300 mb-3">Product</div>
+            <ul class="space-y-2 text-zinc-500">
+              <li><a href="how-it-works.html" class="hover:text-white transition">How it works</a></li>
+              <li><a href="pricing.html" class="hover:text-white transition">Pricing</a></li>
+              <li><a href="#waitlist" class="hover:text-white transition">Waitlist</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="font-medium text-zinc-300 mb-3">Resources</div>
+            <ul class="space-y-2 text-zinc-500">
+              <li><a href="blog/index.html" class="hover:text-white transition">Blog</a></li>
+              <li><a href="#" class="hover:text-white transition">Help center</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="font-medium text-zinc-300 mb-3">Company</div>
+            <ul class="space-y-2 text-zinc-500">
+              <li><a href="#" class="hover:text-white transition">About</a></li>
+              <li><a href="#" class="hover:text-white transition">Privacy</a></li>
+              <li><a href="#" class="hover:text-white transition">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mt-12 pt-8 border-t border-zinc-800 text-sm text-zinc-500 flex flex-col sm:flex-row justify-between gap-4">
+        <span>© 2026 HustleForge. All rights reserved.</span>
+        <span>Built to help people earn more.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
